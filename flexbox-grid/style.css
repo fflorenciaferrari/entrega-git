@@ -191,26 +191,26 @@ footer {
     width: 100%;
     position:fixed;
     bottom: 0%;
+    width: 1500px;
+    height: 45px;
     
 }
 
 .container-redes{
     display: flex;
-    width: 980px;
+    width: 1500px;
     height: 45px;
     margin:auto;
 } 
 .caja-redes{
+    width: 1500px;
+    height: 45px;
     display: flex;
-    justify-content:center;
-    align-items: center;
+    justify-content:center; 
+    align-items: center; 
     gap: 80px;  
 }
 .redes {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 80px;
     list-style-type: none;
 }
 
