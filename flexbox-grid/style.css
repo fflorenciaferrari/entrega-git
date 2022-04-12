@@ -102,10 +102,36 @@ header {
 }
 
 .promoimg{
-    width: 400px;
-    height: 400px;
+    width: 300px;
+    height: 300px;
 }
 
+.promo-card{
+    background-color: #D3B2F8;
+    width: 400px;
+    height: 400px;
+    background-color: #EBCEF2;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 1rem;
+}
+
+/* prueba animacion  */
+
+.img{
+    animation: fadeIn 5s;
+    -webkit-animation: fadeIn 5s;
+    -moz-animation: fadeIn 5s;
+    -o-animation: fadeIn 5s;
+    -ms-animation: fadeIn 5s;
+}
+@keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
 .container{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -191,27 +217,63 @@ footer {
     width: 100%;
     position:fixed;
     bottom: 0%;
-    width: 1500px;
+    width: 1800px;
     height: 45px;
     
 }
 
 .container-redes{
     display: flex;
-    width: 1500px;
+    width: 1800px;
     height: 45px;
     margin:auto;
 } 
 .caja-redes{
-    width: 1500px;
+    width: 1800px;
     height: 45px;
     display: flex;
     justify-content:center; 
     align-items: center; 
     gap: 80px;  
 }
-.redes {
-    list-style-type: none;
+.icon {
+    background-color:#DDAEEA;
+    border-radius: 50%;
 }
 
+.redes {
+    list-style-type: none;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
 /* fin del footer */
+
+/* prueba animacion footer */
+.pulse {
+    margin:100px;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background:#DDAEEA;
+    cursor: pointer;
+    box-shadow: 0 0 0 rgba(200, 123, 228, 0.4);
+    animation: pulse 2s infinite;
+}.pulse:hover {
+    animation: none;
+}
+
+@keyframes pulse {
+    0% {
+    -webkit-box-shadow: 0 0 0 0 rgba(204, 44, 183, 0.4);
+    }
+    70% {
+        -webkit-box-shadow: 0 0 0 10px #b72ccc00;
+    }
+    100% {
+        -webkit-box-shadow: 0 0 0 0 rgba(199, 65, 188, 0);
+    }
+}
