@@ -31,7 +31,9 @@ body {
     width: 35px;
 }
 /* logo */
-/* prueba nav animacion */
+
+
+/* nav animacion y transicion */
 .nav{
     display:inline-block;
     /* margin:0.4em;  padding:1em; */
@@ -45,11 +47,53 @@ body {
 @keyframes nav{
     50%  {transform: scale(0.8);}
 }
+/* nav animacion y transicion */
+
+
 /* header */
 header {
     margin-bottom: 40px;
 }
-/* prueba animacion  */
+
+.titulo-h1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 70px 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.titulo-h2 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.caja-nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #E9DBF8;
+    height: 30px;
+    align-items: center;
+}
+
+.nav {
+    list-style-type: none;
+    text-decoration: none;
+
+
+}
+
+.link-nav{
+    text-decoration: none;
+    color: #000;
+
+}
+
+/* fin header */
+
+/* main */ 
+
+/* animacion y transicion cards 1 */
 .card{
     display:block;
     margin:20px auto 0px;
@@ -89,44 +133,7 @@ header {
     box-shadow:0px 10px 8px rgba(0,0,0,.8);
     }
 }
-.titulo-h1 {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin: 70px 50px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-
-.titulo-h2 {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 20px;
-}
-.caja-nav {
-    display: flex;
-    justify-content: space-around;
-    background-color: #E9DBF8;
-    height: 30px;
-    align-items: center;
-}
-
-.nav {
-    list-style-type: none;
-    text-decoration: none;
-
-
-}
-
-.link-nav{
-    text-decoration: none;
-    color: #000;
-
-}
-
-/* fin header */
-
-/* main */ 
-
+/* animacion y transicion cards 1 */
 
 .contenedor{
     display: flex;
@@ -172,7 +179,7 @@ header {
     gap: 1rem;
 }
 
-/* prueba animacion  */
+/* animacion y transicion cards 2  */
 
 .img{
     animation: fadeIn 5s;
@@ -185,6 +192,7 @@ header {
     0% {opacity:0;}
     100% {opacity:1;}
 }
+/* animacion y transicion cards 2 */
 .container{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -303,9 +311,8 @@ footer {
 }
 
 
-/* fin del footer */
 
-/* prueba animacion footer */
+/* animacion y transicion cards footer */
 .pulse {
     margin:100px;
     width: 22px;
@@ -330,3 +337,6 @@ footer {
         -webkit-box-shadow: 0 0 0 0 rgba(199, 65, 188, 0);
     }
 }
+/* animacion y transicion cards footer */
+
+/* fin del footer */
