@@ -97,7 +97,7 @@ header {
 .card{
     display:block;
     margin:20px auto 0px;
-    height:300px;
+    height: 300px;
     width:auto;
     animation: 3s infinite alternate floating;
 }
@@ -208,8 +208,8 @@ header {
 }
 
 .card {
-    width: 300px;
-    height: 280px;
+    width: 400px;
+    height: 400px;
     background-color: #EBCEF2;
     border-radius: 1rem;
     display: flex;
